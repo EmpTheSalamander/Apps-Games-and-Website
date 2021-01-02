@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background:linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+    font-family: "Hanalei Fill";
+    font-variant: small-caps;
+    font-size: 50px;
+        
+}
+iframe{
+    width:400px;
+    height:600px;
+}
+img{
+    transition:transform .2s;
+    
+}
+img:hover{
+    transform: scale(0.5);
+}
+.line{
+    height:6px;
+    width:450px;
+    background-color: black;
+    margin:8px auto;
+}
+.link{
+    float:right;
+  color:black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.menu{
+    list-style:none;
+  position:fixed;
+  top:10px;
+  right:30px;
+    cursor:pointer;
+    z-index: 10;
+}
+.m{
+    color:black;
+}
+.link:hover{
+    background-color: white;
+}
+
+
